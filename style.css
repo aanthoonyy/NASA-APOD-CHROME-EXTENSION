@@ -1,0 +1,57 @@
+html, body {
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+}
+#apod-image {
+    z-index: 1;
+    width: 100vw;
+    height: 100vh;
+    object-fit: cover;
+    object-position: center;
+}
+
+#apod-date{
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    padding: 10px;
+    font-size: 1.25em;
+    color: white;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
+    font-family: "Trispace", sans-serif;
+    background-color: transparent;
+    width: 30%;
+    padding: 30px;
+    box-sizing: border-box;
+
+}
+
+#clock {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    font-size: 6.5em;
+    color: white;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
+    font-family: "Trispace", sans-serif;
+    backdrop-filter: blur(03px);
+    border-radius: 50px;
+    background-color: transparent;
+    width: 30%;
+    padding: 30px;
+    box-sizing: border-box;
+    box-shadow: 0 0 5px rgba(253, 253, 253, 0.24);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+.tauri-regular {
+    font-family: "Tauri", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+  }
+  
